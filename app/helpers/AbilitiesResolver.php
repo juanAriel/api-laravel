@@ -20,6 +20,7 @@ class AbilitiesResolver
             ],
             default => [
                 'establishment:show',
+                'product:show',
                 'orders:create',
             ],
         };

@@ -21,5 +21,7 @@ class DatabaseSeeder extends Seeder
             'password' => '12345678',
             'role' => 'client',
         ]);
+
+        $this->call(EstablishmentSeeder::class);
     }
 }
